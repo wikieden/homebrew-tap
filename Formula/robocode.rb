@@ -1,7 +1,6 @@
 class Robocode < Formula
   desc "Local-first coding agent CLI with a cockpit-style terminal UI"
   homepage "https://github.com/wikieden/robocode"
-  version "0.1.3"
   license "MIT"
 
   on_macos do
@@ -28,6 +27,6 @@ class Robocode < Formula
   end
 
   test do
-    system "#{bin}/robocode", "--help"
+    system bin/"robocode", "--help"
   end
 end
