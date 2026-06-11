@@ -5,18 +5,18 @@ class Robocode < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/wikieden/robocode/releases/download/v0.1.29/robocode-v0.1.29-aarch64-apple-darwin.tar.gz"
-      sha256 "a61292a431f8415f11d5b1ff71e0831114c1e18fb6707865805c428e852ddab6"
+      url "https://github.com/wikieden/robocode/releases/download/v0.1.30/robocode-v0.1.30-aarch64-apple-darwin.tar.gz"
+      sha256 "d522e16a92827144c95caada71573f29659d1be3d84930647664c86946c75d07"
     else
-      url "https://github.com/wikieden/robocode/releases/download/v0.1.29/robocode-v0.1.29-x86_64-apple-darwin.tar.gz"
-      sha256 "037be4a294a1624ea651ea946014c17acc7dd4687a3a7c06bc215da493c63a7c"
+      url "https://github.com/wikieden/robocode/releases/download/v0.1.30/robocode-v0.1.30-x86_64-apple-darwin.tar.gz"
+      sha256 "97fb1d85c82ae6d53cb03e37e8864fd14b58fc9a1b1d60f906c84117b5a3156c"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/wikieden/robocode/releases/download/v0.1.29/robocode-v0.1.29-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c6cde99fde2cf223aa9e556aac6aae928b3741807841dcbd73b40850f6496fa2"
+      url "https://github.com/wikieden/robocode/releases/download/v0.1.30/robocode-v0.1.30-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f717a9850f5a7432bc81117a270266d5a5df0349e42e9fcb4193c3c18f926892"
     end
   end
 
